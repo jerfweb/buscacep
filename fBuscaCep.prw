@@ -4,7 +4,8 @@
 /*/{Protheus.doc} fBuscaCep
 Função para buscar o CEP, via webserce com retorno em JSON.
 @author     Jerfferson Silva
-@since      13.03.2019
+@since      15.03.2019
+@version	1.0
 @param      cCEP, caracter, Cep sem o '-' apenas os numeros.
 /*/
 //-------------------------------------------------------------------
@@ -52,7 +53,7 @@ Return (cStrResul)
 /*/{Protheus.doc} fValidarCep
 Função para validação do cep
 @author     Jerfferson Silva
-@since      13.03.2019
+@since      15.03.2019
 @param 		cCep, caracter, Cep pra consulta
 @param 		cUrl, caracter, Url do serviço
 @return 	lRet, logico, Retorno .T. (true) se cep valido ou .F. (false) se invalido.
