@@ -30,20 +30,19 @@ Perguntas
 //-------------------------------------------------------------------
 Static Function ParamInf(aRet)
 
-	Local	lReturn   := .T.
-	Local   aPergs    := {}
-	Local	cSayCEP     := Space(TamSx3("A1_CEP")[1])
-	Local	cLoad	  := "fTestCEP"
-	Local   lCanSave  := .T.
-	Local   lUserSave := .T.
-	Private cCadastro := "Parâmetros"
+    Local	lReturn   := .T.
+    Local   aPergs    := {}
+    Local	cSayCEP     := Space(TamSx3("A1_CEP")[1])
+    Local	cLoad	  := "fTestCEP"
+    Local   lCanSave  := .T.
+    Local   lUserSave := .T.
+    Private cCadastro := "Parâmetros"
 
-	aAdd( aPergs ,{1,"CEP",cSayCEP , PesqPict("SA1","A2_CEP")   ,'.T.',     ,'.T.',38,.F.})
-
-	If ParamBox (aPergs, "CEP", @aRet,,,,,,, cLoad, lCanSave, lUserSave)
-		Aadd(aRet, {.T.} )
-	Else
-		lReturn := .F.
-	EndIf
+    aAdd( aPergs ,{1,"CEP",cSayCEP , PesqPict("SA1","A2_CEP")   ,'.T.',     ,'.T.',38,.F.}) 
+    If ParamBox (aPergs, "CEP", @aRet,,,,,,, cLoad, lCanSave, lUserSave)
+        Aadd(aRet, {.T.} )
+    Else
+        lReturn := .F.
+    EndIf
 
 Return (lReturn)
