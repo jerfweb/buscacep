@@ -1,6 +1,6 @@
-# buscacep
-Exemplo em ADVPL de utilização do web service https://viacep.com.br/ws/ disponível para pesquisa de CEPs.
+# BuscaCEP
+Exemplo em ADVPL de utilizaÃ§Ã£o do web service https://viacep.com.br/ws/ disponÃ­vel para pesquisa de CEPs.
 <br><br>
-No exemplo, foi criada uma rotina que recebe o CEP como parâmetro, realiza a pesquisa e obtêm o retorno do serviço no formato JSON. Foram implementadas algumas validações básicas no CEP que é recebido.
+No exemplo, foi criada uma rotina que recebe o CEP como parÃ¢metro, realiza a pesquisa e obtÃªm o retorno do serviÃ§o no formato JSON. Foram implementadas algumas validaÃ§Ãµes bÃ¡sicas no CEP que Ã© recebido.
 <br><br>
-Qualquer dúvida/sugestão, por favor, entre em contato através do e-mail <b>jerfweb@gmail.com</b>.
+Qualquer dÃºvida/sugestÃ£o, por favor, entre em contato atravÃ©s do e-mail <b>jerfweb@gmail.com</b>.
